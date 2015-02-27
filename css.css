@@ -14,12 +14,58 @@ h1 {
   font-family: 'Vollkorn', serif;
   font-weight: 500;
   color: #fff;
-  background-color: orange;
+  background-color: #D05C2E;
   margin: 0px;
   text-align: center;
-
+  padding: .5em;
 }
 
 h2 {
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  padding: .5em 0 0 0;
 
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style-type:none;
+}
+
+nav  {
+  background-color: #D05C2E;
+  display: inline-block;
+}
+
+nav ul {
+  margin: 0;
+  text-align: center;
+}
+
+div {
+  background-color: #DC8252;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+  color: #fff;
+}
+
+.inset {
+  float: right;
+}
+
+footer {
+  background-color: #D05C2E;
+  padding: .5em 0 .5em 0;
 }

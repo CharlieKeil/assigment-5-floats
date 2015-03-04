@@ -62,10 +62,26 @@ figcaption {
 }
 
 .inset {
-  float: right;
+  float: left;
+  width: 50%;
 }
 
+.inset1 {
+  float: right;
+  width: 50%;
+}
+
+
+
+.clear-it {
+  clear: left;
+}
+
+.clear-it1 {
+  clear: right;
+}
 footer {
   background-color: #D05C2E;
   padding: .5em 0 .5em 0;
+  text-align: center;
 }

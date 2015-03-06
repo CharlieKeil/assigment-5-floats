@@ -2,7 +2,8 @@ html {
   box-sizing: border-box;
   font-family: 'Vollkorn', serif;
   margin: 0;
-  line-height: 1.5rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -29,8 +30,6 @@ h1 {
 }
 
 h2 {
-  font-weight: 400;
-  color: #fff;
   text-align: center;
 }
 
@@ -42,10 +41,6 @@ h2 {
 .grain-logo-2 {
 	max-width: 70px;
 	float: right;
-}
-
-ul {
-  margin: 0;
 }
 
 nav ol {
@@ -64,6 +59,18 @@ nav li {
   float: left;
 }
 
+nav li a{
+  color: white;
+  text-decoration: none;
+  background-color: #d05c2e;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+nav li a:hover{
+	background-color: #a63f37;
+}
 
 figure {
   margin: 0;
@@ -74,50 +81,117 @@ figcaption {
   color: #fff;
 }
 
-.inset {
-  float: left;
-  width: 50%;
-}
-
-.inset1 {
-  float: right;
-  width: 50%;
-}
-
-
-
-.clear-it {
-  clear: left;
-}
-
-.clear-it1 {
-  clear: right;
-}
 footer {
   background-color: #D05C2E;
   padding: .5em 0 .5em 0;
   text-align: center;
+  overflow: hidden;
+  clear: both;
+}
+
+.top-div {
+	margin: 0;
+	padding: 0 1em 0 1em;
+}
+.top-p-2 {
+	clear: left;
 }
 
 .grains {
-  float: left;
-  width: 40%;
+	float: left;
+	width: 40%;
+	margin-right: 15px;
+	border: 1px solid #cccccc;
 }
 
-.cereal {
-  float: right;
-  width: 40%;
+.cereals {
+	width: 40%;
+	float: right;
+	margin-left: 15px;
+	border: 1px solid #cccccc;
 }
 
 .quinoa {
-  float: right;
-  width: 40%;
+	width: 40%;
+	clear: right;
+	float: right;
+	margin-top: 1em;
+	margin-left: 15px;
+	margin-bottom: 1em;
+	border: 1px solid #cccccc;
 }
 
-.fig-rice {
-  float: left;
+.mid-h2 {
+	color: white
 }
 
-.fig-oats {
-  float: right;
+.mid-div {
+	background-color: #dc8252;
+	overflow: hidden;
+	clear: both;
 }
+
+.corn {
+	width: 100%;
+}
+
+.corn-fig {
+	margin: 0;
+}
+
+.rice-caption, .oats-caption {
+	color: white;
+	font-style: italic;
+	padding-bottom: 1em;
+}
+.corn-caption {
+	text-align: center;
+	color: white;
+	font-style: italic;
+	padding-bottom: 1em;
+}
+
+.rice, .oats {
+	width: 100%;
+}
+
+.rice-fig {
+	float: left;
+	margin: 0;
+	width: 50%;
+	text-align: center;
+}
+
+.oats-fig{
+	float: right;
+	margin: 0;
+	width: 50%;
+	text-align: center;
+}
+
+.bottom-img {
+	width: 30%;
+	float: left;
+	clear: left;
+	border: 1px solid #cccccc;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.bottom-ul {
+	padding-left: 1em;
+}
+
+.bottom-li {
+	list-style-type: none;
+	clear: both;
+}
+
+.footer-p {
+	margin: 0;
+	text-align: center;
+	padding: 1em 0 1em 0;
+	color: #e0a998;
+  clear: both;
+}
+/*

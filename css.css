@@ -85,3 +85,26 @@ footer {
   padding: .5em 0 .5em 0;
   text-align: center;
 }
+
+.grains {
+  float: left;
+  width: 40%;
+}
+
+.cereal {
+  float: right;
+  width: 40%;
+}
+
+.quinoa {
+  float: right;
+  width: 40%;
+}
+
+.fig-rice {
+  float: left;
+}
+
+.fig-oats {
+  float: right;
+}

@@ -10,12 +10,15 @@ body {
   margin: 0;
 }
 
+.header-div {
+	overflow: hidden;
+}
+
 h1 {
   font-family: 'Vollkorn', serif;
   font-weight: 500;
   color: #fff;
-  background-color: #D05C2E;
-  margin: 0px;
+  margin: 1rem 0 0 3rem;
   text-align: center;
   padding: .5em;
 }
@@ -43,9 +46,12 @@ nav  {
   display: inline-block;
 }
 
-nav ul {
-  margin: 0;
-  text-align: center;
+nav ol{
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	display: block;
 }
 
 div {

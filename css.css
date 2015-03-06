@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  font-family: 'Vollkorn', serif;
+  margin: 0;
+  line-height: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -15,7 +18,6 @@ body {
 }
 
 h1 {
-  font-family: 'Vollkorn', serif;
   font-weight: 500;
   color: #fff;
   margin: 1rem 0 0 3rem;
@@ -54,9 +56,6 @@ nav ol{
 	display: block;
 }
 
-div {
-  background-color: #DC8252;
-}
 
 figure {
   margin: 0;
